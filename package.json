@@ -1,0 +1,27 @@
+{
+    "name": "ts_setup_cli",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "tsx --watch src/index.ts",
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.7.1",
+    "devDependencies": {
+        "@types/node": "^22.14.0",
+        "tsx": "^4.19.3",
+        "typescript": "^5.8.2"
+    },
+    "dependencies": {
+        "commander": "^13.1.0"
+    },
+    "bin": {
+        "boilergen": "./dist/cli.js"
+    }
+}
